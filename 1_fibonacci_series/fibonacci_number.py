@@ -17,6 +17,7 @@ def fibonacci(index):
 		# return(index_list, fibo_list)
 		fig = plt.figure(figsize=(15,7))
 		plt.plot(index_list, fibo_list)
+		plt.show()
 	else:
 		print("at least first three of fibonacci number")
 		
@@ -31,4 +32,3 @@ fibonacci(3)
 # fibonacci(500)
 # fibonacci(1000)
 # fibonacci(1300)
-plt.show()
