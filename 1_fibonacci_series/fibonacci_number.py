@@ -9,7 +9,5 @@ def fibonacci(Nth_fibonacci_number):
     return(fibonacci_list, x_axis)
 
 
-return_list, x_axis = fibonacci(7) # Nth_fibonacci_number>=2
+return_list, x_axis = fibonacci(8)# Nth_fibonacci_number>=2
 print(return_list)
-plt.plot(x_axis,return_list)
-plt.show()
